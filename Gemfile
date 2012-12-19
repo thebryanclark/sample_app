@@ -13,7 +13,10 @@ group :test do
 	gem 'rspec'
 	gem 'webrat'
 end
-
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg"
+end
 
 
 # Gems used only for assets and not required
