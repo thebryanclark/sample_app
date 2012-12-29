@@ -16,3 +16,6 @@
 
 # webrat log (manually added by me)
 /webrat.log
+
+# (manually) ignore some fucking osx bullshit
+.DS_Store
