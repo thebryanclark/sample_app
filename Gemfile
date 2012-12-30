@@ -12,6 +12,7 @@ group :test do
 	gem 'sqlite3'
 	gem 'rspec'
 	gem 'webrat'
+  gem 'factory_girl_rails'
 end
 group :production do
   # gems specifically for Heroku go here
